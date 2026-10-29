@@ -21,5 +21,5 @@ def cosine_similarity(word1, word2):
 # If it appears alongside 'billing', it is administrative.
 
 print("--- Context-Disambiguation via Cosine Similarity ---")
-print(f"Context Match (Discharge + Pain):    {cosine_similarity('discharge', 'pain'):.4f}")
-print(f"Context Match (Discharge + Billing): {cosine_similarity('discharge', 'billing'):.4f}")
+print(f"Context Match (Billing + Pain):    {cosine_similarity('billing', 'pain'):.4f}")
+print(f"Context Match (Discharge + pain): {cosine_similarity('discharge', 'pain'):.4f}")

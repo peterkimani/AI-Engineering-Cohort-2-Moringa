@@ -6,7 +6,8 @@ embeddings = {
     "discharge": np.array([0.1, 0.9, 0.1]),
     "billing":   np.array([0.0, 0.9, 0.1]),
     "admit":     np.array([0.2, 0.8, 0.2]),
-    "cough":     np.array([0.8,0.1,0.3])
+    "cough":     np.array([0.9,0.1,0.7]),
+    "bleeding":  np.array([0.8,0.1,0.9])
 }
 
 def cosine_similarity(word1, word2):
@@ -17,3 +18,6 @@ def cosine_similarity(word1, word2):
 print("--- Context - Disambiguation Via Cosine Similarity")
 print(f"cough vs fever:   {cosine_similarity('cough', 'fever'):.4f}")
 print(f"cough vs billing: {cosine_similarity('cough', 'billing'):.4f}")
+print(f"--- Example 2 ---")
+print(f"bleeding vs fever: {cosine_similarity('bleeding', 'fever'):.4f}")
+print(f"bleeding vs admit: {cosine_similarity('bleeding', 'admit'):.4f}")
