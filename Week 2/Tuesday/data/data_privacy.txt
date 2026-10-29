@@ -1,0 +1,23 @@
+AfyaPlus Health - Data Privacy Rules
+
+1. Purpose
+These rules govern how AfyaPlus collects, stores, and uses patient and staff data across all clinics in Kenya.
+
+2. Core data privacy rules
+Patient records may only be accessed by staff directly involved in that patient's care.
+All personal data must be encrypted both in storage and in transit.
+Patient data must never be shared with third parties without the patient's written consent.
+Staff must use unique login credentials and must not share passwords.
+Any data stored on portable devices must be encrypted and password protected.
+
+3. Consent
+Patients must give informed consent before their data is collected. Consent can be withdrawn at any time, after which the data is archived and no longer used for analysis.
+
+4. Data retention
+Patient medical records are retained for 7 years after the last visit, then securely deleted. Staff HR records are retained for 7 years after employment ends.
+
+5. Breach reporting
+Any suspected data breach must be reported to the Data Protection Officer within 24 hours of discovery.
+
+6. Legal basis
+AfyaPlus complies with the Kenya Data Protection Act, 2019, and the patient has the right to access, correct, or request deletion of their personal data.

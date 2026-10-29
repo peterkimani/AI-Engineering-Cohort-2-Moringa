@@ -1,0 +1,31 @@
+AfyaPlus Health - Procurement and Purchase Approval Policy
+
+1. Purpose
+This policy sets out how AfyaPlus staff request, approve, and record purchases of goods and services for clinic operations.
+
+2. Approval thresholds
+Procurement under 500 US dollars can be approved by the team lead alone.
+Clinic equipment purchases above 500 US dollars require director sign-off.
+Logistics hardware purchases between 1,000 and 2,000 US dollars require the Procurement Officer's signature.
+Any purchase above 2,000 US dollars requires both the Procurement Officer and the Finance Director to sign off.
+
+3. Supplier selection
+At least three quotations must be obtained for any purchase above 1,000 US dollars. Preference is given to approved suppliers on the AfyaPlus vendor register.
+
+4. Cold-chain items
+Vaccines, test kits, and other cold-chain items must be routed to the Refrigerated Depot (Section X) and handled by the assigned inventory representative.
+
+5. General inventory
+Non-cold-chain supplies are routed to the General Inventory Depot (Section Y).
+
+6. Purchase orders
+No goods may be ordered without an approved purchase order. Orders placed without a valid purchase order will not be paid.
+
+7. Emergency purchases
+In a clinical emergency, a purchase may proceed with verbal approval from a director, provided a written purchase order is raised within 24 hours.
+
+8. Payment terms
+Standard supplier payment terms are 30 days from receipt of a valid invoice. Early payment discounts should be used where available.
+
+9. Record keeping
+All procurement records, including quotations, approvals, and invoices, must be kept for at least 7 years for audit and tax reporting.
