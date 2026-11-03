@@ -27,10 +27,8 @@ def calculate_facility_utilization(active_beds: int, total_beds: int) -> str:
     """
     try:
         # Guard clause: utilisation is undefined if there are no beds to divide by.
-        if total_beds <= 0:
-            return "Error: total beds must be greater than zero."
-        if active_beds > total_beds:
-            return "Error: active beds cannot exceed total beds."
+        if total_beds <= 0 or active_beds > total_beds:
+            return "Error: total beds must be greater than zero and active beds cannot exceed total beds."
         # Core calculation: fraction occupied, expressed as a percentage.
         pct = (active_beds / total_beds) * 100
         # :.1f formats the number to one decimal place, e.g. 84.0.
@@ -63,7 +61,7 @@ executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 # Run the agent on one question, wrapped in try/except so any failure prints
 # a readable message and full traceback instead of a bare crash.
 try:
-    result = executor.invoke({"input": "If 84 of our 80 beds are occupied, what is utilisation?"})
+    result = executor.invoke({"input": "If 184 of our 100 beds are occupied, what is utilisation?"})
     print(f"\n--- Final Answer ---")
     # The executor returns a dict; the answer is under "output". .get provides
     # a fallback string in case that key is missing.

@@ -66,7 +66,7 @@ executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 # failure (bad key, network error, rate limit) prints a readable message and
 # traceback instead of crashing.
 try:
-    result = executor.invoke({"input": "How much paracetamol do we have, and what is the cost of an 8-hour shift at KES 450 per hour?"})
+    result = executor.invoke({"input": "How much paracetamol do we have, and what is the cost of an 8-hour shift "})
     print(f"\n--- Final Answer ---")
     # The executor returns a dict; the answer is under "output". .get provides a
     # fallback string in case that key is missing.

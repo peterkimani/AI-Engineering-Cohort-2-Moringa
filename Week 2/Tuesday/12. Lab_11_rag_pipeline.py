@@ -106,6 +106,6 @@ if __name__ == "__main__":
     rag_chain = build_rag_chain(vector_store)
 
     # Replace this with a question your own documents can answer.
-    question = "How soon is staff travel reimbursed?"
+    question = "Who is Kenyatta?"
     print(f"\nQ: {question}")
     print(rag_chain.invoke(question))
